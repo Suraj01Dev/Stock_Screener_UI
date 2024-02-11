@@ -4,8 +4,8 @@ pipeline {
         RELEASE="1.0.0"
         DOCKER_USER="suraj01dev"
         DOCKER_PASS="dockerhub"
-        IMAGE_NAME="${DOCKER_USER}"+"/"+"${APPNAME}"
-        IMAGE_TAG="${RELEASE}+"-"+${BUILD_NUMBER}"
+        IMAGE_NAME="${DOCKER_USER}"+"/"+""${APPNAME}"
+        IMAGE_TAG="${RELEASE}"+"-"+${BUILD_NUMBER}"
     }
 
     agent {
